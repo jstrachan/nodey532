@@ -9,6 +9,8 @@ spec:
     trigger: "/test"
     rerun_command: "/retest"
     source: "pullrequest.yaml"
+    labels:
+      aadpodidbinding: tekton-bot
   postsubmits:
   - name: release
     context: "release"
