@@ -17,3 +17,5 @@ spec:
     source: "release.yaml"
     branches:
     - master
+    labels:
+      aadpodidbinding: tekton-bot
